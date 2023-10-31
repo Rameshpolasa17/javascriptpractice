@@ -1,4 +1,4 @@
-/*let score=200
+let score=200
 let balance= new Number(20)
 console.log(score)
 console.log(balance)
@@ -7,7 +7,7 @@ console.log(balance.toFixed(4))
 let otherNumber=28.269
 console.log(otherNumber.toPrecision(4))
 let hundred=1000000
-console.log(hundred.toLocaleString('en-IN'))*/
+console.log(hundred.toLocaleString('en-IN'))
 
 
 //-----------Math----------------
