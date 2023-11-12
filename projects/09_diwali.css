@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, orange 0%, orange 25%, purple 51%, #ff357f 100%);
+    -webkit-animation: AnimateBG 30s ease infinite;
+            animation: AnimateBG 30s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.container{
+    display: grid;
+    place-items: center;
+    height: 70vh;
+}
+.diya{
+    background-color: yellow;
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 0 0 150px 150px;
+}
+.flame-container{
+    width: 300px;
+    height: 60px;
+    background-color: red;
+    margin-bottom: -346px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+.flame-highlight{
+    height: 170px;
+    width: 170px;
+    background-color: #fdf1c2;
+    border-radius: 160px 0;
+    transform: rotate(-45deg);
+    margin-top: -155px;
+    margin-left: 60px;
+    border: 3px solid rgba(255, 0, 0, 0.582);
+    animation: zoom-in-zoom-out 1s ease;
+}
+.greeting{
+    color: yellow;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.click{
+    color: orange;
+    font-size: 15px;
+    border-radius: 10px;
+}
+h1{
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
